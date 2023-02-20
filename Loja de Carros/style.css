@@ -1,0 +1,28 @@
+.topo {
+	height: 350px;
+	background-image: url("https://resized-images.autoconf.com.br/1920x450/filters:format(webp)/site/569/a50eb87a-56f6-42f5-8959-20896fbe7220.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1500px;
+}
+.conteudo h1{
+    text-align: center;
+}
+
+.conteudo table{
+    margin: 0 auto;
+}
+#onix {
+    width: 200px;
+}
+#fordka {
+    width: 200px;
+}
+#i30 {
+    width: 200px;
+}
+#bmw {
+    width: 200px;
+}
+
+
