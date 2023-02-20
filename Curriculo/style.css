@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#tituloNome{
+    text-align: center;
+}
+#imagem{
+    text-align: center;
+    display: block;
+}
+
