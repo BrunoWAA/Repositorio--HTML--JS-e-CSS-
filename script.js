@@ -27,5 +27,10 @@ function acoesBotoes ()
         exibirHTML("Loja de Carros/veiculos.html", "div-principal");
     });
 
+    document.getElementById("btn-form").addEventListener("click", function() 
+    {
+        exibirHTML("formulario/formulario.html", "div-principal");
+    });
+
 }
   

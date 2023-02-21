@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <div class="topo"></div>
+        <hr></hr>
+        <div class="conteudo">
+            <h1>Visite nossa loja</h1>
+        </div>
+
+        <iframe id="mapsgoogle" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14622.710394201178!2d-46.6871349!3d-23.6158928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4fa584588789%3A0xc8b220fb566528a9!2sAuto%20M%20Ve%C3%ADculos!5e0!3m2!1spt-BR!2sbr!4v1676938767302!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <hr></hr>
+        <h1 id="form">Fale Conosco</h1>
+
+        <div class="formulario">
+            <form action="https://webhook.site/7908eb3d-5726-4d2e-bca7-735bfffdf1fe" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" name="nome" id="" placeholder="Digite seu nome" required>
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="" placeholder="e-mail@exemplo.com" required>
+                <br>
+                <label for="descricao">Descrição</label>
+                <br>
+                <textarea name="mensagem" id="mensagem" cols="40" rows="10" placeholder="Digite aqui"
+                    required>
+                </textarea>
+
+                <br>
+                <button type="submit">Enviar</button>
+        </div>
+    </div>
+    
+</body>
+</html>

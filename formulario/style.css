@@ -1,0 +1,26 @@
+.topo {
+	height: 350px;
+	background-image: url("https://www.cauterfix.com.br/wp-content/uploads/2019/02/carros_confianca-1080x565.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1500px;
+}
+.conteudo h1{
+    text-align: center;
+}
+
+#mapsgoogle{
+    display: nome;
+    background: black;
+    border: none;
+    height: 450px;
+    width: 1245px;
+
+}
+#form{
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
+}
