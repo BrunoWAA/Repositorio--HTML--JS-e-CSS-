@@ -24,6 +24,7 @@ function acoesBotoes ()
 
     document.getElementById("btn-Loja").addEventListener("click", function() 
     {
+        //
         exibirHTML("Loja de Carros/veiculos.html", "div-principal");
     });
 
