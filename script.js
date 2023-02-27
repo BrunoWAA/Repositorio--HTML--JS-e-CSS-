@@ -32,6 +32,10 @@ function acoesBotoes ()
     {
         exibirHTML("formulario/formulario.html", "div-principal");
     });
+    document.getElementById("btn-api").addEventListener("click", function() 
+    {
+        exibirHTML("Api/api.html", "div-principal");
+    });
 
 }
   
