@@ -23,13 +23,14 @@
 
 .esquerda {
 	height: 600px;
-	width: 150px;
+	width: 300px;
 	float: left;
 
 }
 
 .principal {
 	height: 606px;
+	
 
 
 }
@@ -69,6 +70,7 @@
 	overflow-x: hidden;
 	overflow-y: scroll;
 	overflow: hidden;
+
 
 
 }
