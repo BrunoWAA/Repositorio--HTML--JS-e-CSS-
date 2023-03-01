@@ -1,0 +1,32 @@
+
+body{
+
+    background: rgb(228, 220, 220);
+    margin: 0;
+   
+}
+
+.cabecalho{
+    background-color: black;
+    border: solid 3px green;
+    padding: 20px;
+}
+
+.cabecalho .menu_link{
+    display: inline-block;
+    color: white;
+    margin-right: 50px;
+    padding: 3px;
+
+}
+
+.cabecalho .menu_link:hover{
+    background-color: rgb(248, 247, 247);
+    border-radius: 10px;
+    color: black;
+}
+
+main{
+    border: solid 3px red;
+     
+}
