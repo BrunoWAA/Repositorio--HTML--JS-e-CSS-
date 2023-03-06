@@ -1,14 +1,19 @@
+.html{
+	background: red;
+}
+
 .topo {
 	height: 150px;
 	background-image: url("https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 300px;
+	display: flex;
 
 }
 
 .topo h1 {
-	color: black;
+
     display: flex;
 
 }
@@ -17,33 +22,34 @@
 	height: 40px;
 	display: table;
 	margin: 0 auto;
+	display: flex;
 
 
 }
 
-.esquerda {
-	height: 600px;
-	width: 300px;
-	float: left;
-
+#div-principal{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
 }
 
 .principal {
 	height: 606px;
-	
-
+	display: flex;
 
 }
 
 .rodape {
 	display: flex;
 	justify-content: center;
+	flex-direction: row;
 	align-items: center;
     height: 50px;
     background-color: rgb(234, 232, 232)
 	}
 
-.menu button {
+.menu .menu-aula, #btn-home {
     margin: 0 5px;
 	display: table-cell;
 	vertical-align: middle;
