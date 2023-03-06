@@ -39,18 +39,20 @@ function acoesBotoes ()
         }
 
     });
-}
-document.getElementById("menu-aula-2").addEventListener("change", function() 
-{
-    select = document.getElementById("menu-aula-2").value
-    if(select == "Curriculo")
-    {
-        exibirHTML("Curriculo/curriculo.html", "div-principal")
-        
-    }
-    else if(select == "Loja")
-    {
-        exibirHTML("Loja de Carros/veiculos.html", "div-principal");
-    }
 
-});
+    document.getElementById("menu-aula-2").addEventListener("change", function() 
+    {
+        select = document.getElementById("menu-aula-2").value
+        if(select == "Layout Simples")
+        {
+            exibirHTML("Layout simples/layout.html", "div-principal")
+        }
+        else if(select == "Loja")
+        {
+            exibirHTML("Loja de Carros/veiculos.html", "div-principal");
+        }
+    
+    });
+
+}
+
