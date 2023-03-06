@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="topo">
+            <img src="https://cdn-icons-png.flaticon.com/512/590/590772.png">
+            <h1>Cadastro de produtos</h1>
+            <h2>Informe nos campos a seguir os dados do produto a ser cadastrado.</h2>
+        </div>
+        <div class="conteudo">
+            <hr>
+            <form action="https://target-api-simples.cyclic.app/generica" method="POST">
+                <label for="produto"></label>
+                <input placeholder="Digite o nome do produto" id="produto" name="produto" required>
+                <label for="preco"></label>
+                <input placeholder="Digite o preço R$" id="preco" name="preco" required> 
+                <hr>
+                <label for="quantidade"></label>
+                <input placeholder="Digite a quantidade" id="quantidade" name="quantidade" required>
+                
+                    <select id="categoria" name="categoria" required>
+                    <option id="selecao" disabled selected>Selecione a Categoria</option>
+                    <option id="frutas">Frutas</option>
+                    <option id="legumes">Legumes</option>
+                    <option id="verdutas">Verdutas</option>
+                    <option id="doce">Doce</option>
+                    <option id="salgado">Salgado</option>
+                </select>
+                <hr>
+            <button>CADASTRAR</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

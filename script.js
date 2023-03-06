@@ -47,9 +47,13 @@ function acoesBotoes ()
         {
             exibirHTML("Layout simples/layout.html", "div-principal")
         }
-        else if(select == "Loja")
+        else if(select == "Formulário (CSS)")
         {
-            exibirHTML("Loja de Carros/veiculos.html", "div-principal");
+            exibirHTML("Formulário com CSS/formulario.html", "div-principal");
+        }
+        else if(select == "Calculadora 1 e 2")
+        {
+            exibirHTML("Exercícios JS + DOM/js_dom.html", "div-principal");
         }
     
     });

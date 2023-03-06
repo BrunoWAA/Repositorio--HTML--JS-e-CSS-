@@ -1,0 +1,29 @@
+
+.container{
+    background-color: rgb(207, 203, 203);
+    border: solid red 2px;
+    width: 1000px;
+    height: 500px;
+}
+
+.topo img {
+    flex-direction: row;
+    float: left;
+    width: 80px;
+    padding: 10px;
+}
+.topo h1 {
+    color: rgb(163, 30, 30);
+    padding: 40px 40px;
+}
+
+.topo {
+height: 200px;
+border: solid red 2px;
+}
+
+.conteudo form button{
+
+    background-color: rgb(163, 30, 30);
+    color: white;
+}

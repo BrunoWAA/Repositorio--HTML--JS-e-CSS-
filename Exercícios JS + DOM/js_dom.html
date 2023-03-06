@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JS + DOM</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="topo">
+            <img src="https://img.freepik.com/vetores-premium/icone-da-calculadora_543534-432.jpg?w=2000">
+            <h1>Exercícios JS + DOM</h1>
+        </div>
+
+
+        <div class="conteudo-esquerda">
+            <h1>Exercício 1</h1>
+            <br>
+            <br>
+            <label class="label" name="numeroA">Digite o primeiro valor</label>
+            <input class="input_css" placeholder="Digite um número" id="numeroAA">
+            <br>
+            <br>
+            <label class="label" name="numeroB">Digite o primeiro valor</label>
+            <input class="input_css" placeholder="Digite um número" id="numeroBB">
+            <br>
+            <br>
+            <label class="label" name="numeroC">Digite o primeiro valor</label>
+            <input class="input_css" placeholder="Digite um número" id="numeroCC">
+            <br>
+            <br>
+            <button onclick="calculadora1 ()" id="botao">Resultado</button>
+            <div class="resultado1"></div>
+            <br>
+            <p onclick="limparA()" id="limpar">Limpar</p>
+
+        </div>
+
+
+        <div class="conteudo-direita">
+            <h1>Exercício 2</h1>
+            <br>
+            <br>
+            <label class="label" name="numeroA">Digite o primeiro valor</label>
+            <input  onchange="calculadora2()" class="input_css" placeholder="Digite um número" id="numeroA">
+            <br>
+            <br>
+            <label class="label" name="numeroB">Digite o primeiro valor</label>
+            <input onchange="calculadora2()"class="input_css" placeholder="Digite um número" id="numeroB">
+            <br>
+            <br>
+            <label class="label" name="numeroC">Digite o primeiro valor</label>
+            <input onchange="calculadora2()"class="input_css" placeholder="Digite um número" id="numeroC">
+            <br>
+            <br>
+            <div class="resultado2"></div>
+            <br><br>
+            <p onclick="limparB()" id="limpar">Limpar</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
