@@ -1,0 +1,48 @@
+
+.container{
+    align-items: center;
+    width: 800px;
+    height: 440px;
+    border: solid 3px red;
+    justify-content: center;
+	align-items: center;
+    margin: 0px;
+    margin-left: 20px; 
+}
+
+#imagem-mochila{
+
+
+    padding: 10px 10px;
+
+}
+
+.topo h1{
+    padding: 30px 30px;
+    margin-left: -20px; 
+}
+
+.topo {
+    text-align: center;
+    height: 100px;
+    display: flex;
+}
+.esquerda{
+    text-align: center;
+    width: 200px;
+    height: 290px;
+    border: solid 3px orange;
+    float: left;
+    display: flex;
+    margin-left: 0px; 
+    margin: 10px; 
+
+}
+.meio{
+    text-align: center;
+    height: 290px;
+    border: solid 3px red;
+    display: flex;
+    margin-right: 20px;
+    margin: 10px; 
+}
